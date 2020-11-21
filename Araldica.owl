@@ -1,0 +1,353 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/myOntology#"
+     xml:base="http://www.semanticweb.org/myOntology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-2="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/myOntology#">
+        <rdfs:label>This is my new Ontology</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#haBlasone -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#haBlasone">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#haStemma"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Stemma"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Blasone"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#haCollocatoElemento -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#haCollocatoElemento">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Collocazione"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Elemento"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#haColore -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#haColore">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Elemento"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Colore"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#haForma -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#haForma">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Elemento"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Forma"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#haOrientamento -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#haOrientamento">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Collocazione"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Orientamento"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#haParte -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#haParte">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Elemento"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Collocazione"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#haPosizione -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#haPosizione">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Collocazione"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Posizione"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#haProporzione -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#haProporzione">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Collocazione"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Proporzione"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#haSfondo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#haSfondo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Elemento"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Sfondo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#haStemma -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#haStemma">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Blasone"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Stemma"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Blasone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Blasone"/>
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Capo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Capo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Collocazione"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Collocazione -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Collocazione"/>
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Colore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Colore"/>
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Elemento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Elemento"/>
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Forma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Forma"/>
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Oggetto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Oggetto">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Elemento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Orientamento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Orientamento"/>
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Posizione -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Posizione"/>
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Proporzione -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Proporzione"/>
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#PuntoArme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#PuntoArme">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Stemma"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Elemento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Sfondo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Sfondo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Elemento"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Stemma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Stemma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Elemento"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Capo_Corona_StemmaCastiglia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Capo_Corona_StemmaCastiglia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Capo"/>
+        <untitled-ontology-2:haCollocatoElemento rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Corona"/>
+        <untitled-ontology-2:haPosizione rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Sopra"/>
+        <untitled-ontology-2:haProporzione rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#1:3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Castello_tre_torri -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Castello_tre_torri">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Oggetto"/>
+        <untitled-ontology-2:haColore rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Oro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Centro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Centro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Posizione"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Collocazione_Castello_tre_torri -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Collocazione_Castello_tre_torri">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Collocazione"/>
+        <untitled-ontology-2:haCollocatoElemento rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Castello_tre_torri"/>
+        <untitled-ontology-2:haPosizione rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Centro"/>
+        <untitled-ontology-2:haProporzione rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#2:3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Corona -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Corona">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Oggetto"/>
+        <untitled-ontology-2:haColore rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Oro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Oro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Oro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Colore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Rosso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Rosso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Colore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Scudo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Scudo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Forma"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Oggetto"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Sfondo"/>
+        <untitled-ontology-2:haColore rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Rosso"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Sfondo_StemmaCastiglia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Sfondo_StemmaCastiglia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Sfondo"/>
+        <untitled-ontology-2:haColore rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Rosso"/>
+        <untitled-ontology-2:haForma rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Scudo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Sopra -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Sopra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Posizione"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#StemmaCastiglia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#StemmaCastiglia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#PuntoArme"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Stemma"/>
+        <untitled-ontology-2:haForma rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Scudo"/>
+        <untitled-ontology-2:haParte rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Capo_Corona_StemmaCastiglia"/>
+        <untitled-ontology-2:haParte rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Collocazione_Castello_tre_torri"/>
+        <untitled-ontology-2:haSfondo rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Sfondo_StemmaCastiglia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#1:3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#1:3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Proporzione"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#2:3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#2:3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/giuseppe/ontologies/2020/10/untitled-ontology-2#Proporzione"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
